@@ -1,0 +1,42 @@
+/*Estilos de la pagina de Testimonios*/
+.testimonio-bootstrap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    background-color: rgba(78, 85, 22, .6);
+    height: 90vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+.accordion-item {
+    background-color: #a2b7a7;
+    border-radius: 10px;
+    border: none;
+}
+.accordion-item h2 {
+    padding: 1em;
+    font: inherit;
+}
+.accordion-button {
+    background-color: #a2b7a7;
+    border: none;
+}
+.collapseTwo {
+    background-color: #a2b7a7;
+}
+/*Media queries para pantalla de 1024px*/
+@media (max-width:1024px) {
+    .testimonio-bootstrap {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 0.5rem 2rem;
+        background-color: rgba(78, 85, 22, .6);
+        height: 95vh;
+        margin-left: 10vh;
+        margin-right: 10vh;
+    }
+}

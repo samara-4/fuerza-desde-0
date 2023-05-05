@@ -1,0 +1,38 @@
+/*Estilos footer*/
+footer {
+    width: 100%;
+    position: unset;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 2rem;
+    background-color: #d1d1d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logo {
+    height: 80px;
+    margin-bottom: 1rem;
+}
+.social-icons-container, .footer-menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+.footer-menu-container {
+    list-style-type: none;
+    color: black;
+    font-size: 18px;
+}
+.menu-item {
+    margin: 1rem 1.5rem;
+    opacity: 0.6;
+}
+.copyright {
+    color: black;
+    opacity: 0.4;
+    text-align: center;
+}
